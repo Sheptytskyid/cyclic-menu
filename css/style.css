@@ -1,0 +1,17 @@
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-item:focus {
+    border-bottom: 5px solid #0f0;
+    outline: none;
+}
